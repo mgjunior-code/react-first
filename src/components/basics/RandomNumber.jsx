@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default (props) => {
+const RandomNumber = (props) => {
 
     const {min, max} = props;
     const [a, b] = [1,2]; //pega a primeira posição
@@ -15,3 +15,5 @@ export default (props) => {
         </div>
     )
 }
+
+export default RandomNumber;
