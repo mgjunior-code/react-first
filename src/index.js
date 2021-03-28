@@ -2,11 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import FirstComponent from "./components/basics/FirstComponent";
+import ComponentsWithParams from "./components/basics/ComponentsWithParams";
 
 
 ReactDOM.render(
     <div>
         <FirstComponent></FirstComponent>
+        <ComponentsWithParams
+            title="first param"
+            subtitle="second param"/>
     </div>,
   document.getElementById('root')
 );
