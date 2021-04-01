@@ -1,5 +1,5 @@
 import React from 'react'
-import studentData from '../../data/student'
+import studentData from '../../data/studentData'
 
 const StudentList = () =>  {
 
