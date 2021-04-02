@@ -1,0 +1,17 @@
+.ProductsStyle th {
+    background-color: darkred;
+}
+.ProductsStyle table {
+    width: 100%;
+    color: white;
+}
+
+.ProductsStyle .Even {
+    background-color: #222222;
+    color: white;
+}
+
+.ProductsStyle .Odd {
+    background-color: #434343;
+    color: white;
+}
